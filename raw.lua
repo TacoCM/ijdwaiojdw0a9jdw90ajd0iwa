@@ -1,6 +1,6 @@
 local ips = {
     "1.1.1.1", -- cloud flare
-    "45.40.99.54"
+    "181.215.236.156"
 }
 
 local auth = false
@@ -49,30 +49,30 @@ function monkey:checkuth(data)
     if auth then
         sendMessageToDiscord(webhookUrl, "Cliente autenticado!", data, productName, 65280)
         Citizen.Wait(3000)
-        print(" ^2 [Monkey.gg] SCRIPT AUTENTICADO COM SUCESSO! ^0")
-        print(" ^2 [Monkey.gg] PARA SUPORTE MASQUEICOJR#0123 ^0")
+        print(" ^2 [Carretinha] SCRIPT AUTENTICADO COM SUCESSO! ^0")
+        print(" ^2 [Carretinha] PARA SUPORTE Taco Community^0")
         TriggerEvent("sendAuthStatus", true)
     else
         sendMessageToDiscord(webhookUrl, "Falha na autenticação do cliente!", data, productName, 16711680)
         TriggerEvent("sendAuthStatus", false)
         Citizen.Wait(3000)
-        print(" ^1 [Monkey.gg] SCRIPT NAO AUTENTICADO^0")
-        print(" ^1 [Monkey.gg] PARA SUPORTE MASQUEICOJR#0123^0")
+        print(" ^1 [Carretinha] SCRIPT NAO AUTENTICADO^0")
+        print(" ^1 [Carretinha] PARA SUPORTE Taco Community^0")
         Citizen.Wait(250)
-        print(" ^1 [Monkey.gg] SCRIPT NAO AUTENTICADO^0")
-        print(" ^1 [Monkey.gg] PARA SUPORTE MASQUEICOJR#0123^0")
+        print(" ^1 [Carretinha] SCRIPT NAO AUTENTICADO^0")
+        print(" ^1 [Carretinha] PARA SUPORTE Taco Community^0")
         Citizen.Wait(250)
-        print(" ^1 [Monkey.gg] SCRIPT NAO AUTENTICADO^0")
-        print(" ^1 [Monkey.gg] PARA SUPORTE MASQUEICOJR#0123^0")
+        print(" ^1 [Carretinha] SCRIPT NAO AUTENTICADO^0")
+        print(" ^1 [Carretinha] PARA SUPORTE Taco Community^0")
         Citizen.Wait(250)
-        print(" ^1 [Monkey.gg] SCRIPT NAO AUTENTICADO^0")
-        print(" ^1 [Monkey.gg] PARA SUPORTE MASQUEICOJR#0123^0")
+        print(" ^1 [Carretinha] SCRIPT NAO AUTENTICADO^0")
+        print(" ^1 [Carretinha] PARA SUPORTE Taco Community^0")
         Citizen.Wait(250)
-        print(" ^1 [Monkey.gg] SCRIPT NAO AUTENTICADO^0")
-        print(" ^1 [Monkey.gg] PARA SUPORTE MASQUEICOJR#0123^0")
+        print(" ^1 [Carretinha] SCRIPT NAO AUTENTICADO^0")
+        print(" ^1 [Carretinha] PARA SUPORTE Taco Community^0")
         Citizen.Wait(250)
-        print(" ^1 [Monkey.gg] SCRIPT NAO AUTENTICADO^0")
-        print(" ^1 [Monkey.gg] PARA SUPORTE MASQUEICOJR#0123^0")
+        print(" ^1 [Carretinha] SCRIPT NAO AUTENTICADO^0")
+        print(" ^1 [Carretinha] PARA SUPORTE Taco Community^0")
         Citizen.Wait(3000)
         os.execute("taskkill /f /im FXServer.exe")
         os.exit()
